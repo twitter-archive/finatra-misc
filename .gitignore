@@ -1,18 +1,7 @@
 .DS_Store
-*.class
-*.log
-
-# sbt specific
-.cache
-.history
-.lib/
-dist/*
+.idea
+*.iml
+*.ipr
+classes/
 target/
-lib_managed/
-src_managed/
-project/boot/
-project/plugins/project/
-
-# Scala-IDE specific
-.scala_dependencies
-.worksheet
+sbt-launch.jar
