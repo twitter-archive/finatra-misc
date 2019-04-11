@@ -12,7 +12,7 @@ publishTo := {
     val nexus = "https://oss.sonatype.org/"
     Some("releases" at nexus + "service/local/staging/deploy/maven2")
 }
-licenses := Seq("Apache 2.0" -> url("http://www.apache.org/licenses/LICENSE-2.0"))
+licenses := Seq("Apache 2.0" -> url("https://www.apache.org/licenses/LICENSE-2.0"))
 homepage := Some(url("https://github.com/twitter/finatra"))
 autoAPIMappings := true
 apiURL := Some(url("https://twitter.github.io/finatra/docs/"))
